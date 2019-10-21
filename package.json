@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A web application using node.js, Express and MySQL to create a \"dating\"-type app. It compares answers from a survey with those from other users. I then displays the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhellier/friend-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanhellier/friend-finder/issues"
+  },
+  "homepage": "https://github.com/seanhellier/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}

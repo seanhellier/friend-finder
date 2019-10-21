@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="./css/survey.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Find a Friend</h1>      
+			</div>
+		</div>
+
+		<div class="row">
+				<div class="col-lg-12">
+					<Div class="greeting">
+					<h4>
+						<p>Want to meet someone who shares your intersts?</p>      
+						<p>Answer the short survey below to find a friend and have some great fun!</p>
+					</h4>  
+					</div>   
+				</div>
+			</div>
+
+		<div class="row" >
+			<div class="col-lg-2" id="spacer"></div>
+			<div class="col-lg-8">
+
+	        <div class="card">
+	          	<div class="card-body">
+	          		<h2>Tell Us About Yourself</h2>
+	          		<hr>
+
+		            <form method="POST" role="form">
+
+		              <div class="form-group">
+		                <label for="name">Name (required)</label>
+		                <input type="text" class="form-control" id="name" required>
+		              </div>
+
+		              <div class="form-group">
+		                <label for="photo">Link to Photo (required)</label>
+		                <input type="text" class="form-control" id="photo" required>
+		              </div>
+					</form>
+	            </div>
+
+
+				<div class="card-body">
+					<h2>Questions</h2>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-1"><h4>#1. Jumping out of airplanes is perfectly normal.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q1" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q1" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q1" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q1" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q1" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-2"><h4>#2. BASE jumping is an excellent way to go to work.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q2" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q2" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q2" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q2" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q2" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-3"><h4>#3. Free Solo is the greatest movie ever.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q3" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q3" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q3" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q3" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q3" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-4"><h4>#4. You'd climb the World Trade Center.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q4" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q4" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q4" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q4" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q4" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-5"><h4>#5. Mavericks Point is your second home.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q5" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q5" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q5" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q5" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q5" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-6"><h4>#6. Hang gliding is as close to heaven as you can get.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q6" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q6" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q6" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q6" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q6" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-7"><h4>#7. Free fall is your natural state of being.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q7" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q7" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q7" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q7" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q7" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-8"><h4>#8. Belaying is rock love.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q8" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q8" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q8" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q8" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q8" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-9"><h4>#9. You'd BASE jump Mount Everest.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q9" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q9" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q9" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q9" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q9" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+					<hr>
+	            	<div class="form-group">
+
+				    	<label for="question-10"><h4>#10. You wish Trump was on Mars or some damn place besides here.</h4></label>
+				    	<div class="card-body" id="options">
+						    <div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q10" id="inlineRadio1" value="1"> 1
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q10" id="inlineRadio2" value="2"> 2
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q10" id="inlineRadio3" value="3" > 3
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q10" id="inlineRadio4" value="4" > 4
+							  </label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="q10" id="inlineRadio5" value="5" > 5
+							  </label>
+							</div>
+						</div>
+					</div>
+
+
+	            	<br>
+	            	<div class="text-right" >
+	              		<button type="button" class="btn btn-secondary btn-md submit" id="add-btn"  data-toggle="modal" data-target="#myModal" >Find Friends</button>
+	            	</div>
+	          	</div>
+	        </div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="bestFriend">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="bestFriend">You've made a friend!</h4>
+	      </div>
+	      <div class="modal-body" id="friend-info">
+					<h5 id="friend-name"></h5>
+					<img id="friend-photo" src="" alt="Meet your new friend!">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	var allAnswers = [];
+
+	$(".submit").on("click", function(event){
+
+		var newFriend = {
+			name: $("#name").val().trim(),
+			photo: $("#photo").val().trim(),
+
+			answers: function(){
+				for (i=1; i < 11; i++){
+					var answer = $('input[name="q'+i+'"]:checked').val();
+					allAnswers.push(parseInt(answer));
+				}
+				return allAnswers;
+			}
+		};
+
+		console.log(newFriend);
+
+		$.post("/api/friends", newFriend, function(data){
+
+			if (data) {
+				alert("Get ready to make new friends!");
+			}
+			else {
+				alert("Uh-oh! Something went wrong with your survey!");
+			}
+
+			$("#name").val("");
+			$("#photo").val("");
+			$('input[type="radio"]').attr('checked', false);
+
+		}).done(function() {
+			$.ajax({
+					url: "/api/friends",
+					method: "GET",
+					datatype: 'json'
+
+			}).done(function(res, err) {
+				if(err) {
+					console.log(err);
+				}
+				// console.log(res);
+				var current = res[res.length-1];
+				// console.log(current);
+				var bestFriend = current.bestie;
+				console.log(bestFriend);
+				$("#friend-name").text("Hi " + current.name + ", my name is " + bestFriend.name + "!");
+				$("img#friend-photo").attr("src", bestFriend.photo);
+			});
+
+		});
+
+	});
+</script>
